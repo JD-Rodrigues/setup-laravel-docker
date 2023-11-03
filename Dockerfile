@@ -1,8 +1,8 @@
 FROM php:8.2.12-fpm
 
 # set your user name, ex: user=carlos
-ARG user=domingosrodrigues.dev
-ARG uid=42
+ARG user=seu_usuario
+ARG uid=seu_id
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
